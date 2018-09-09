@@ -1,3 +1,56 @@
+# Dependencies
+highlighter:      rouge
+
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+
+# Permalinks
+permalink:              /blog/:categories/:title/
+# permalink:            blog/:categories/:year/:month/:day/:title/
+
+# Setup
 theme: jekyll-theme-hacker
-title: Welcome to lucidsoft's homepage!
-description: Software developer
+title:            'Lucidsoft'
+name:             'Lucidsoft'
+#tagline:          ''
+description:      'Software developer'
+#url:              https://lucidsoft.github.io/
+baseurl:
+# blogurl:          /blog/
+
+# Assets
+images:         '/img'
+pdfs:           '/pdf'
+
+author:
+  name:           'Lucidsoft'
+  url:            lucidsoft.github.io
+  email:          ''
+  github:         'https://github.com/lucidsoft'
+  facebook:       ''
+  twitter:        ''
+  googleplus:     ''
+  linkedin:       ''
+
+paginate:         3
+# paginate_path:    "/blog/page:num/"
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/lucidsoft/lucidsoft.github.io
+
+# Collections
+collections:
+  - projects
+  - talks
+
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: "projects" # a collection in your site, in plural form
+#     values:
+#       layout: "default"
